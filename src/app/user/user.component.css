@@ -1,0 +1,108 @@
+.flight-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.flight-table th,
+.flight-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.flight-table th {
+  background-color: rgba(200, 216, 240, 0.982); /* Blue */
+  color: black;
+}
+
+.flight-table tbody tr:nth-child(even) {
+  background-color: #f8f9fa; /* Light Gray */
+}
+
+.flight-table tbody tr:hover {
+  background-color: #f0eeee; /* Yellow */
+  color: black;
+}
+
+/* Styles for the buttons */
+.btn-group-sm .btn {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.btn-warning {
+  background-color: #ffc107; /* Yellow */
+  border-color: #ffc107; /* Yellow */
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Red */
+  border-color: #dc3545; /* Red */
+  color: #fff;
+}
+
+/* Tooltip styles (optional) */
+.tooltips {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltips:before {
+  content: attr(data-original-title);
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.tooltips:hover:before {
+  visibility: visible;
+  opacity: 1;
+}
+  .ajout{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-bottom:3%;
+  }
+  .ajout button{
+    margin-left: 10%;
+  }
+
+
+
+.card {
+    border: none;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    margin-bottom: 30px;
+}
+.w-60 {
+    width: 60px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 10px;
+    font-weight: 600;
+}
+.social-links li a {
+    -webkit-border-radius: 50%;
+    background-color: rgba(89,206,181,.85);
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+    font-size: 12px;
+}
+a {
+    color: #707070;
+}

@@ -1,0 +1,77 @@
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="navbar-brand">
+        <img src="/assets/logtun.png" alt="logotunisair">
+    </div>
+   
+    <ul class="navbar-nav ">
+        <li >
+            <a class="nav-link" href="#">Acceuil</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#">Services</a>
+        </li>
+        <li >
+            <a class="nav-link" href="#">Contacts</a>
+        </li>
+        <li>
+            <a class="nav-link" routerLink='/flight' style="width:150px;">les Vols Tunisair</a>
+          </li>
+          </ul>
+          <form class="form-inline search-form">
+            <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Search">
+            <button class="btn btn-outline-dark" type="submit"><i class="fa fa-search"></i></button>
+        </form>
+          <ul class="navbar-nav  d-flex justify-content-between">
+            <li class="nav-item">
+             
+                <a class="nav-link"  style="margin-left: 10%;" class="btn btn-primary" routerLink="/signup">Créer un compte</a>
+             
+            </li>
+            <li class="nav-item">
+              
+                <a   class="nav-link"  style="margin-left: 15%;" class="btn btn-secondary" routerLink="/login">S'authentifier</a>
+             </li>
+    </ul>
+
+ </nav>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+ <div class="container">
+    <div class="flex"><h1>Bienvenu chez TUNISAIR ! </h1>
+    <img src="assets/elanin.png"  alt="Tunisair Logo" width="200">
+ </div>
+ <p class="paragraph" style="margin-left:20%; margin-bottom:3%;">Pour profiter de nos services, veuillez vous authentifier ou créer un compte.</p>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">C'est Qui Tunisair ? </div>
+          <div class="card-body">
+            <img src="assets/logtun.png"  style="margin-left: 30%;" alt="Tunisair Logo" width="200">
+            <p class="paragraph">Tunisair est la compagnie aérienne nationale de la Tunisie. Fondée en 1948,
+              elle est l'une des plus anciennes compagnies aériennes d'Afrique. 
+              Tunisair assure des vols réguliers vers de nombreuses destinations en Tunisie et à l'étranger,
+               reliant ainsi la Tunisie au reste du monde. La compagnie aérienne propose un large éventail de services et
+                d'expériences de voyage, allant des vols domestiques aux vols internationaux long-courriers.
+                 </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">Réserver et décrochez vos places ! </div>
+          <div class="card-body">
+            <img src="assets/indash.JPG" alt="Airplane" width="500">
+           
+          </div>
+        </div>
+      </div>
+     
+   </div>
+ </div>
+ 
+ <router-outlet></router-outlet>
+ 
+ 
+   

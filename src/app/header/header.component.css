@@ -1,0 +1,71 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  .flex{
+    display: flex;
+    margin-bottom: 2%;
+    margin-left: 20%;
+  }
+  .paragraph {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .paragraph:first-letter {
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+    margin-right: 5px;
+    color: #007bff;
+  }
+  @import " https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css";
+  body {
+      padding-top: 50px; /* Ajoute un espacement pour la barre de navigation */
+  }
+  
+  .navbar {
+      background-color: rgba(200, 216, 240, 0.982); /* Couleur de fond de la barre de navigation */
+      border-bottom: 1px solid #ddd; /* Bordure inférieure de la barre de navigation */
+  }
+  
+  
+  .navbar-brand img {
+      width: 300px;
+      height: 150px; 
+       
+  }
+  form{
+margin-left: 3%;
+margin-top: 1%;
+
+  }
+  
+  .navbar-nav .nav-link {
+     
+      margin-left: 20%;
+      color: black;
+      text-decoration: wavy;
+      text-transform: capitalize;
+      text-rendering: geometricPrecision;/* Couleur des liens dans la barre de navigation */
+      text-decoration-color: black;
+  
+  }
+  
+  .navbar-nav .nav-link:hover {
+      color: red; /* Couleur des liens au survol dans la barre de navigation */
+      
+  
+  }
+  
+  .button {
+      margin-left: 70%; /* Marge à gauche des boutons */
+      
+  }

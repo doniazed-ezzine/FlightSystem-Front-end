@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="text-center mb-4">
+        <img src="/assets/logtun.png" alt="Tunisiar" style="width:200px; height:150px;" class="img-fluid">
+        <h1 class="mt-8"> Bienvenu ! </h1>
+        <p class="lead">Découvrez une nouvelle façon d'explorer la Tunisie.</p>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h2 class="text-center">Connexion</h2>
+        </div>
+        <div class="card-body">
+          <form (ngSubmit)="login()">
+            <div class="form-group">
+              <label for="email">Email :</label>
+              <input type="email" class="form-control" id="email" [(ngModel)]="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="password">Mot de passe :</label>
+              <input type="password" class="form-control" id="password" [(ngModel)]="password" name="password" required>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-Success"><a class="nav-link"  routerLink='/dash' style="width:150px;"> Se connecter</a></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

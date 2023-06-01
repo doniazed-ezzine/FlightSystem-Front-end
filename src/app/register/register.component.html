@@ -1,0 +1,39 @@
+
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-6">
+      <div class="text-center mb-4">
+        <img src="/assets/logtun.png" alt="Tunisiar" style="width:200px; height:150px;" class="img-fluid">
+        <h1 class="mt-8">Rejoignez TUNISAIR dès aujourd'hui !</h1>
+        <p class="lead">Découvrez une nouvelle façon d'explorer la Tunisie.</p>
+      </div>
+      <h2 class="text-center">Créer un compte </h2>
+      <form (ngSubmit)="signup()">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" [(ngModel)]="user.email" name="email" id="email" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" [(ngModel)]="user.password" name="password" id="password" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="fname"> Nom :</label>
+          <input type="text" [(ngModel)]="user.fname" name="fname" id="fname" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="lname">Prénom:</label>
+          <input type="text" [(ngModel)]="user.lname" name="lname" id="lname" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="role">Role:</label>
+          <input type="text" [(ngModel)]="user.role" name="role" id="role" class="form-control" required>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-Success"> <a class="nav-link" class="btn btn-Success" style="color:white;" routerLink='/login' style="width:150px;"> S'inscrire</a></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
